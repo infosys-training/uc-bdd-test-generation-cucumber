@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "name": "Whiskers",
+  "species": "Cat",
+  "breed": "Siamese",
+  "age": 5,
+  "status": "available",
+  "tags": ["calm"]
+}
