@@ -1,0 +1,9 @@
+{
+  "id": "2",
+  "name": "Max",
+  "species": "dog",
+  "breed": "Golden Retriever",
+  "age": "5",
+  "status": "available",
+  "tags": ["playful"]
+}
