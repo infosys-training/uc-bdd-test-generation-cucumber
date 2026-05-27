@@ -1,0 +1,8 @@
+{
+  "id": "3",
+  "name": "Buddy",
+  "species": "dog",
+  "breed": "Golden Retriever",
+  "age": "3",
+  "tags": ["friendly", "trained"]
+}
