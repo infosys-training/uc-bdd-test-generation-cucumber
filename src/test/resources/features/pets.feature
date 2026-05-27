@@ -1,4 +1,6 @@
+@pet
 Feature: Petstore API tests
+
 
   Background:
     Given http baseUri is /api/
