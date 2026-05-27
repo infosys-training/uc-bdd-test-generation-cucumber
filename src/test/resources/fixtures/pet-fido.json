@@ -1,0 +1,7 @@
+{
+  "name": "Fido",
+  "species": "dog",
+  "age": 5,
+  "status": "available",
+  "tags": ["friendly", "trained"]
+}
