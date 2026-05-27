@@ -1,6 +1,7 @@
 package fr.redfroggy.bdd.restapi.glue;
 
 import fr.redfroggy.bdd.restapi.authentication.BddRestTemplateAuthentication;
+import fr.redfroggy.bdd.restapi.pet.PetController;
 import fr.redfroggy.bdd.restapi.user.UserController;
 import io.cucumber.java.After;
 import io.cucumber.spring.CucumberContextConfiguration;
@@ -31,6 +32,11 @@ public class DefaultRestApiStepDefinitionTest implements BddRestTemplateAuthenti
     @After("@import")
     public void afterImport() {
         UserController.users.clear();
+    }
+
+    @After("@pet")
+    public void afterPet() {
+        PetController.pets.clear();
     }
 
 }
