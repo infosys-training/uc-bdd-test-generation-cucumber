@@ -252,6 +252,7 @@ Feature: Petstore API tests
     When I DELETE /pets/99999
     Then http response code should be 404
 
+  @pet-cleanup
   Scenario: Delete all pets and verify empty list
     When I DELETE /pets/1
     Then http response code should be 200

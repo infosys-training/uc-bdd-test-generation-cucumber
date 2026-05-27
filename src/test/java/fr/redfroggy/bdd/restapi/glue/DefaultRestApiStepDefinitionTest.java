@@ -34,8 +34,8 @@ public class DefaultRestApiStepDefinitionTest implements BddRestTemplateAuthenti
         UserController.users.clear();
     }
 
-    @After("@pet")
-    public void afterPet() {
+    @After("@pet-cleanup")
+    public void afterPetCleanup() {
         PetController.pets.clear();
     }
 
