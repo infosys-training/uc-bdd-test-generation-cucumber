@@ -137,6 +137,7 @@ Feature: Petstore API tests
     When I GET /pets/`$petId`
     Then http response code should be 404
 
+  @pet-cleanup
   Scenario: Delete second pet and verify list is empty
     When I DELETE /pets/`$petId2`
     Then http response code should be 200
