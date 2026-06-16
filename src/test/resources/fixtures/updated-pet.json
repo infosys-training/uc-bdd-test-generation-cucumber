@@ -1,0 +1,9 @@
+{
+  "id": "1",
+  "name": "Max Senior",
+  "species": "dog",
+  "breed": "Labrador",
+  "age": "8",
+  "status": "adopted",
+  "tags": ["senior", "calm"]
+}
